@@ -13,6 +13,10 @@ public class QueryProcessor {
                     "despite his works having been in publication for only four years before his death from " +
                     "tuberculosis at the age of 25.";
         }
+        if (query.toLowerCase().contains("tolkien")) {
+            return "John Ronald Reuel Tolkien CBE FRSL was an English writer, poet, philologist, and academic," +
+                    " who authored the classic high fantasy works The Hobbit, The Lord of the Rings, and The Silmarillion.";
+        }
         return "";
     }
 }
